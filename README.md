@@ -22,6 +22,8 @@ With ruby installed, it is as simple as double clicking on the script.
 You will see a command prompt, and you only need to follow the prompts and 
 supply the corresponding information. 
 
+From a terminal, simply run 'ruby march_calc.rb' from within its directory. 
+
 ## Credit ##
 The ratios used are hardcoded at the top in a hash and may be changed if desired.
 All credit goes to tiger38 for the values used. 
