@@ -10,10 +10,7 @@ If you only need it for this script, you may uncheck the box to install mysys (s
 
 ## Alternative ##
 Go to: https://repl.it/@Zorander421/KoATroopCalc
-Hit run. As far as I know, this will remain available. Feel free to save it your own account there too. 
-
-You now have the option of either making an account there, and saving the program to be run later. 
-Or repeat the above steps each time.
+Hit run. As far as I know, this will remain available. Feel free to save it your own account there too. (Not needed for use only)
 
 ## Download ##
 Simply clone or download and extract the repository to the desired location.
