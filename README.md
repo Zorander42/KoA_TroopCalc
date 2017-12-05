@@ -16,12 +16,13 @@ With ruby installed, it is as simple as double clicking on the script.
 You will see a command prompt, and you only need to follow the prompts and 
 supply the corresponding information. 
 
-## Other Info ##
-
+## Credit ##
 The ratios used are hardcoded at the top in a hash and may be changed if desired.
 All credit goes to tiger38 for the values used. 
 
-
+## Other Info ##
+Not all possible errors are accounted for. Supply the march capacity prompt with only a whole number.
+The tier prompt accepts t7, t8, T7, T8, 7, and 8 as valid input. 
 
 ## For a good time and the best alliance go to... ###
 Kingdom 387, SDW
