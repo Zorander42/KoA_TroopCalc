@@ -33,5 +33,13 @@ All credit goes to tiger38 for the values used.
 Not all possible errors are accounted for. Supply the march capacity prompt with only a whole number.
 The tier prompt accepts t7, t8, T7, T8, 7, and 8 as valid input. 
 
+## To Do ##
+
+-- Add siege support
+-- Support for other max tiers
+-- Better looking output
+
+
 ## For a good time and the best alliance go to... ###
 Kingdom 387, SDW
+
