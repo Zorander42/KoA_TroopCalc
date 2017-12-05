@@ -8,6 +8,12 @@ Ruby can be installed here: https://rubyinstaller.org/
 
 If you only need it for this script, you may uncheck the box to install mysys (sp?) at the finish screen of the ruby installer.
 
+## Alternative ##
+If you'd REALLY rather not install ruby just for this, here is a relatively simple workaround.
+Go to: https://repl.it/languages/ruby
+Copy all code from the march_calc.rb file, and paste it into the left panel. 
+No you may simply hit the run button on the top center, and follow the prompts as usual on the left.
+
 ## Download ##
 Simply clone or download and extract the repository to the desired location.
 
