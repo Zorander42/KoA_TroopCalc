@@ -6,6 +6,8 @@ Calculates march count for each tier of troop based on march capacity and custom
 Requires Ruby to be installed in order to run it. 
 Ruby can be installed here: https://rubyinstaller.org/
 
+If you only need it for this script, you may uncheck the box to install mysys (sp?) at the finish screen of the ruby installer.
+
 ## Download ##
 Simply clone or download and extract the repository to the desired location.
 
