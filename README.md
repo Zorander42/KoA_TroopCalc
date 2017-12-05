@@ -19,3 +19,7 @@ supply the corresponding information.
 The ratios used are hardcoded at the top in a hash and may be changed if desired.
 All credit goes to tiger38 for the values used. 
 
+
+
+## For a good time and the best alliance go to... ###
+Kingdom 387, SDW
