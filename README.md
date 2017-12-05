@@ -8,6 +8,7 @@ Ruby can be installed here: https://rubyinstaller.org/
 
 If you only need it for this script, you may uncheck the box to install mysys (sp?) at the finish screen of the ruby installer.
 s
+
 ## Alternative ##
 Go to: https://repl.it/@Zorander421/KoATroopCalc
 Hit run.
