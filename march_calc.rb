@@ -1,5 +1,8 @@
 #This program calculates the number of each tier of troops to send, accounting for up to t8s.
-#
+#To execute, simply hit the run button above. Click on the right window to change focus and
+# enter the requested info.  
+
+
 @march_cap = 0
 @max_tier = ''
 
@@ -76,8 +79,7 @@
 #Initial input prompt
 def input
   puts "Enter your march capacity: "
-  @march_cap = gets.chomp.to_i
-
+  @march_cap = gets.chomp.to_s.sub(",", "").to_i
   puts "Enter max troop tier (suports t7 and t8): "
   @max_tier = gets.chomp.downcase
 end
@@ -102,7 +104,7 @@ def calc_inf
 
   if @max_tier == 't7' || @max_tier == '7'
     hash = @t7_infantry
-  else
+  elsif @max_tier == 't8' || @max_tier == '8'
     hash = @t8_infantry
   end
 
@@ -123,8 +125,10 @@ def calc_cav
 
   if @max_tier == 't7' || @max_tier == '7'
     hash = @t7_cavalry
-  else
+  elsif @max_tier == 't8' || @max_tier == '8'
     hash = @t8_cavalry
+  else
+    input_error
   end
 
   hash.each {|key, value|
@@ -140,11 +144,12 @@ end
 def calc_bow
 
   bow = []
-
   if @max_tier == 't7' || @max_tier == '7'
     hash = @t7_bowmen
-  else
+  elsif @max_tier == 't8' || @max_tier == '8'
     hash = @t8_bowmen
+  else
+    input_error
   end
 
 
@@ -179,6 +184,12 @@ def calc_res
     puts "#{pair[0]} infantry: #{pair[1]}"
   end
 end
+
+def input_error
+  puts "Invalid input enter in max troop tier! Please try again."
+  input
+end
+  
 
 
 input
